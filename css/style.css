@@ -1,0 +1,119 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* HEADER SECTION */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg.jpg); /* makes background image blackish*/ 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff; 
+}
+
+#home .jumbotron {
+    position: absolute;
+    text-align: justify;
+    background-color: inherit;
+    margin: 5%; 
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* PRODUCT SECTION */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#product-section {
+   background-color: #fff;
+   color: #000;  
+}
+
+#product-section .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    max-height: 200px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 0 0 30px 0;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;   
+}
+
+h3:after {  /*  code for a line after get food -fast*/
+    display: block;
+    height:2px;
+    background-color: #f1c40f;
+    content: " ";
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mid-btn {
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ABOUT SECTION */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#about-section {
+    background: #333;
+    color: #fff;
+}
+
+.long-copy {
+    line-height: 145%;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* FEATURE SECTION */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#feature-section {
+    background: #fff;
+    color: #000;
+}
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #5cb85c;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
